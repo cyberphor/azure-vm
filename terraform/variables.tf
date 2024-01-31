@@ -33,6 +33,11 @@ variable "vm_image_version" {
   default = "latest" 
 }
 
+variable "vm_os_disk_storage_type" {
+  type    = string
+  default = "StandardSSD_LRS"
+}
+
 variable "local_admin_username" {
   type    = string
   default = "victor"
